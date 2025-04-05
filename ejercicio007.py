@@ -3,7 +3,7 @@
 # mides [altura] metros."
 
 nombre = input('Escriba su nombre: ')
-edad = input('Escriba su edad: ')
-altura = input('Escriba su altura (metros): ')
+edad = int(input('Escriba su edad: '))
+altura = float(input('Escriba su altura (metros): '))
 
 print('Hola, {}, tienes {} años y mides {} metros'.format(nombre, edad, altura))
