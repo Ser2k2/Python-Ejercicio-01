@@ -12,13 +12,8 @@ if (numero > 1): #Los números menores o iguales a 1 no son primos
     elif ((numero % 2 == 0) or (numero % 3 == 0)): #Los números divisibles por 2 o 3 no son primos
         print(f' {numero} no es un número primo.')
     else:
-        for contador in range (2, numero): #Un número primo es un número entero mayor que 1 que solo tiene dos divisores positivos: el 1 y él mismo. Por eso se empieza desde el numero 2.
-            if ((numero % contador) == 0):
-                print(f" {numero} no es un número primo.")
-                break
-            else:
-                print(f'{numero} es un número primo.')
-                break
+         print(f'{numero} es un número primo.')
+        
 else:
     print(f'{numero} no es un número primo.')
 
